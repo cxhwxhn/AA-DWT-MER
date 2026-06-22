@@ -23,18 +23,18 @@ pip install -r requirements.txt
 
 Main dependencies:
 
-numpy==1.21.5
-Pillow==8.4.0
-scikit-learn==1.0.2
-scipy==1.7.3
-matplotlib==3.5.1
-pandas==1.3.5
-tqdm==4.62.3
-tensorboard==2.7.0
-opencv-python==4.5.5.64
-PyYAML==6.0
-torch==1.10.1
-torchvision==0.11.2
+- numpy==1.21.5
+- Pillow==8.4.0
+- scikit-learn==1.0.2
+- scipy==1.7.3
+- matplotlib==3.5.1
+- pandas==1.3.5
+- tqdm==4.62.3
+- tensorboard==2.7.0
+- opencv-python==4.5.5.64
+- PyYAML==6.0
+- torch==1.10.1
+- torchvision==0.11.2
 
 To use a GPU, make sure that your CUDA and PyTorch versions are compatible. The code automatically selects `cuda:0` when available and falls back to the CPU otherwise.
 
