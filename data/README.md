@@ -1,1 +1,0 @@
-The dataset is located in this folder.
