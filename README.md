@@ -1,4 +1,4 @@
-# CASMEII Micro-Expression Recognition (LOSO)
+Micro-Expression Recognition
 
 This project implements a micro-expression recognition training pipeline based on the CASMEII dataset using Leave-One-Subject-Out (LOSO) cross-validation.
 
