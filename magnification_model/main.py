@@ -5,8 +5,8 @@ from adaptive_evm import Params, adaptive_dynamic_weak_texture_amplification
 
 
 def main() -> None:
-    input_video = "EP08_04.avi"
-    output_video = "enhanced_EP19_03f.avi"
+    input_video = ""
+    output_video = ""
 
     params = Params(
         tau=8,
