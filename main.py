@@ -201,7 +201,7 @@ def run_one_dataset(args, dataset_name, dataset_rows):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--manifest", nargs="+", default=[" "])
+    parser.add_argument("--manifest", nargs="+", default=[""])
     parser.add_argument("--datasets", nargs="*", default=["CASMEII"])
     parser.add_argument("--frame_window", type=int, default=2)
     parser.add_argument("--lr", type=float, default=0.001)
